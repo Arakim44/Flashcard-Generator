@@ -1,0 +1,7 @@
+{"front":"Front of the card","back":"Back of the card","type":"basic flashcard"};{"front":"Front ","back":"Back","type":"basic flashcard"};
+{
+  "type": "cloze flash card",
+  "text": "BizzaroFlame plays Ganondorf in smashbrothers",
+  "cloze": "Ganondorf",
+  "clozeDeleted": "BizzaroFlame plays ______ in smashbrothers"
+};
