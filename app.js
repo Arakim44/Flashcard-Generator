@@ -72,11 +72,11 @@ function createCloze(){
     {
       name:'fullText',
       type: 'input',
-      message: 'Type full text of card'
+      message: 'Type full text of card: '
     },{
       name:'cloze',
       type:'input',
-      message:'Type cloze from text'
+      message:'Type cloze from text: '
     }]).then(function(response){
       var newClozeFlashcard = new ClozeFlashcard(response.fullText, response.cloze);
 

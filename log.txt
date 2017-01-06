@@ -1,7 +1,19 @@
-{"front":"Front of the card","back":"Back of the card","type":"basic flashcard"};{"front":"Front ","back":"Back","type":"basic flashcard"};
 {
   "type": "cloze flash card",
   "text": "BizzaroFlame plays Ganondorf in smashbrothers",
   "cloze": "Ganondorf",
   "clozeDeleted": "BizzaroFlame plays ______ in smashbrothers"
+};
+
+{
+  "type": "basic flashcard",
+  "front": "Anikan Skywalker",
+  "back": "Father of Luke Skywalker also as known as the mighty Darth Vadar"
+};
+
+{
+  "type": "cloze flash card",
+  "text": "Chirrut Imwe is a blind warrior who believes in the Force and is said to be one of the Guardians of the Whills.  He is played by Donnie Yen.",
+  "cloze": "Donnie Yen",
+  "clozeDeleted": "Chirrut Imwe is a blind warrior who believes in the Force and is said to be one of the Guardians of the Whills.  He is played by ______."
 };

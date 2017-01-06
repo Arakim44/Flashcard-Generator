@@ -20,8 +20,20 @@ var ClozeFlashcard = function(text, cloze) {
     }
 
     this.deleteCloze = function(){
-      this.clozeDeleted = this.text.replace(this.cloze,'______');
+
+
      //not sure what it means to throw error when not be able to find where cloze should go.
+     if (this.text.indexOf(this.cloze) >= 0) {
+                // replace the cloze in the text with ellipses
+                this.clozeDeleted = this.text.replace(this.cloze,'______');
+
+            } else {
+                // if the cloze is not the text, console log this error
+                console.log('ERROR: ')
+            }//burrowed the code from someone else, but not working.
+
+
+
     }
 
 
